@@ -1,0 +1,46 @@
+:root {
+/*    --c1: #EAFDFC;*/
+    --c2: #BFEAF5;
+    --c3: #91D8E4;
+    --c4: #82AAE3;
+    --c5: #495464;
+    --c1: #FAF7F0;
+/*    --c2: #CDFCF6;
+    --c3: #BCCEF8;
+    --c4: #98A8F8;
+    --c5: #495464;
+*/
+}
+
+body {
+    background-color: var(--c2);
+    color: var(--c5);
+}
+
+b {
+    color: var(--c4);
+    font-size: large;
+    font-weight: 700;
+    border-bottom: 3px solid var(--c3);
+}
+
+a {
+    color: var(--c4);
+    border-bottom: 1px solid var(--c2);
+}
+
+.page {
+    background-color: var(--c1);
+}
+
+.page h1 {
+    border-bottom: 3px solid var(--c3);
+}
+
+.page h2 {
+    border-bottom: 2px solid var(--c2);
+}
+
+.title {
+    background-color: var(--c1);
+}
